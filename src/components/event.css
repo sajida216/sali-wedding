@@ -1,0 +1,87 @@
+
+    .event{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        margin: 0; 
+        font-family: 'Great Vibes', cursive;/* Optional: Remove default margin */
+        font-weight: 550;
+        font-size: 74px;
+    }
+    /* Initial hidden state */
+.hidden {
+    opacity: 1;
+    transform: translateX(-100px);
+}
+/* For a simple border */
+.border-example {
+    border: 2px solid black;
+    padding: 5%;
+    font-family: Engagement;         /*'Great Vibes', cursive; */
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #bdc2c25c;
+    border: 2px solid black;
+    padding: 5%;
+    /* font-family: sans-serif; */
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #bdc2c25c;
+    margin-top: 11%;
+}
+
+.footer{
+    border: 2px solid #bdc2c25c;
+    padding: 3%;
+    font-family:sans-serif;          /*'Great Vibes', cursive; */
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    background-color: #bdc2c25c;
+    margin-top: 40px;
+    font-family: Engagement;
+}
+
+/* Transition effect */
+/* .transition {
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 2;
+}
+
+@keyframes heading {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+} */
+
+@media (max-width: 768px) {
+    .event{
+        font-size: 3rem; /* Font size for mobile */
+     }
+}
+
+     /* h4{
+        font-family: 'Great Vibes', cursive;
+     } */
+    /* Mobile styles */
+   
+    
+    /* Desktop styles 
+    @media (min-width: 601px) {
+        h1 {
+            font-size: 4rem;  Font size for desktop *
+        }
+    } */
+    

@@ -1,0 +1,142 @@
+.countdown {
+  text-align: center;
+  /* font-family: Arial, sans-serif; */
+  font-family: Engagement;
+  color: white;
+}
+
+.countdown-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.countdown-box {
+  background-color:  rgb(119 116 116 / 79%); /* Black with transparency */
+  padding: 15px;
+  border-radius: 8px;
+  width: 98px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .countdown-box {
+      height: 5vh; 
+      width: 10vh;  
+      margin-top: 52px;  /* Reduce height on smaller screens */   
+  }
+}
+
+.timer{
+   position: absolute;
+    top: 80%;
+    left: 39%;
+
+}
+@media (max-width: 760px) {
+  .timer{
+  top: 85%;
+  left: 3%;
+
+}
+}
+
+.count-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.count-label {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+@media (max-width: 768px) {
+    .sizes {
+        font-size: 1.5rem;
+    }
+}
+
+.bx-direction{ 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.sizes{
+  margin-top: 97px;
+  /* margin-left: 17%; */
+  /* font: weight 450px;
+  font-size: 4rem;
+} */ 
+/* .bx-direction{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+body {
+  padding: 30px;
+  background-color: #141518;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.sizes{
+  font-size: 30px;
+  color: #505050;
+}
+
+h6 {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #8c8c8c;
+  background: #0c0c0c;
+  width: 100%;
+  margin: 0px;
+  padding: 20px 0;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+.time-box-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.single-box {
+  text-align: center;
+  border-right: 1px solid #333333;
+  padding: 0 34px;
+  display: flex;
+  flex-direction: row;
+  
+  &:last-child {
+    border: none;
+  }
+  
+  h1 {
+    margin: 0px;
+    
+    color: white;
+  }
+  p {
+    margin-top: 97px;
+    margin-left: 17%;
+  }
+} */

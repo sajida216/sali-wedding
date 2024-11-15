@@ -1,0 +1,91 @@
+/* Base Styles (Mobile-First) */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.fullscreen-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    
+}
+
+.fullscreen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    /* background:rgba(147, 147, 147, 0.5); */
+}
+
+.responsive-text {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4c4243;
+    font-size: 20vw; /* Base font size for small screens */
+    text-align: center;
+    padding: 0 1rem; /* Padding for readability */
+     font-family: 'Great Vibes', cursive;       /*Adds cursive font style
+     /* font-family: "Amsterdam", Arial, serif; */
+     transition: opacity 1s ease-out;
+}
+.caption{
+    color: #4c4243;
+   position:absolute;
+   top:509px;
+   left:45%;
+   font-family: Engagement;
+   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   /* font-family: Great Vibes, cursive; */
+   font-size:20px;
+}
+/* @media (max-width: 768px) {
+    .caption {
+        font-size: 15px;
+        left: 34px;
+        top: 42rem /* Slightly smaller for desktops 
+    }
+} */
+/* Adjust font size for larger screens */
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 4vw; /* Slightly smaller for desktops */
+        top: 30%;
+         left: 12%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-text {
+        font-size: 7vw;
+        top: 275px;
+        left: 772px;
+    }
+}
+@media (max-width: 768px) {
+    .caption{
+        font-size: 6vw;
+        top: 679px;
+        left: 23%;
+    }
+}
+
+
+.carousel-images {
+    animation-name:  imageScroll;
+    flex-direction: column;  /* Stack images vertically */
+    transition: transform 1s ease-out; /* Smooth transition effect */
+  }
+
+@keyframes imageScroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);  /* Move images up */
+    }
+  }
+

@@ -1,0 +1,224 @@
+/* Container styling */
+.event-container {
+  display: flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap: 8rem;
+  padding: 3rem;
+  /* flex-wrap: wrap; Ensures it wraps on smaller screens */
+}
+
+@media (max-width: 768px) {
+  .event-container{
+    flex-wrap: wrap;
+   }
+}
+
+/* Box styling */
+.event-box {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  font-family: Engagement;
+}
+
+/* Title styling */
+.event-title {
+  font-family: 'Dancing Script', cursive; /* Add this font in your HTML or import in CSS */
+  font-size: 2rem;
+  color: #555;
+}
+
+/* Divider styling */
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ff7f50;
+  margin: 1rem 0;
+}
+
+/* Link styling */
+.direction-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #ff7f50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.direction-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling */
+/* @media (max-width: 768px) {
+  .event-container {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cards-containers{
+  display: flex;
+  flex-direction: row;
+  box-shadow: inset 0px -2px 15px 0px rgb(0 0 0 / 29%);
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* .card1 {
+    width: 80%;                /* Adjust the width of the card 
+    max-width: 900px;          /* Set a maximum width 
+    height: 453px;             /* Increase the height 
+    /* padding: 20px;             Add padding inside the card 
+    width: 199%; /* Desktop width */         /* Center card horizontally 
+  } */
+  /* .font{
+    margin-top: 50px;
+  } */
+  /* .Cards{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;                
+    max-width: 900px;          
+    height: 520px;            
+    padding: 20px;             /* Add padding inside the card */
+     /* Optional: add shadow */
+    /* margin: auto;     
+    width: 35%; /* Desktop width */         /* Center card horizontally
+} */
+  
+  /* .font h4 {
+    /* margin: 6px 0;            Adjust space between lines *
+    padding: 0;                 Remove padding   white-space: nowrap; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 25px;
+    font-weight: 400; */
+   
+   /* padding: 5px; */
+         /* Prevent text wrapping *
+  }
+  
+  @media (max-width: 768px) {
+    /* .card1 {
+      width: 89%;              /* Make card nearly full width on small screens 
+      height: auto;            /* Adjust height based on content 
+      padding: 15px;           /* Adjust padding for smaller screens 
+    } */
+  
+    .font h4 {
+      font-size: 18px;         /* Smaller font size for mobile */
+    }
+  
+  
+  .cards-containers {
+    /* display: flex;
+    justify-content: space-around; */
+    /* display: flex; */
+    /* flex-direction:; */
+    /* justify-content:flex-start; */
+    /* flex-wrap: wrap; */
+    /* padding: 25px; */
+    width: 100%;
+  }
+  
+  /* .card1{
+    margin-bottom: 10px; /* Adjust space between cards 
+    box-shadow: inset 0px -2px 15px 0px rgb(0 0 0 / 29%);
+    border-radius: 10px;
+  } */
+  /* .cards-containers{ */
+    /* margin-bottom: 10px; /* Adjust space between cards 
+    box-shadow: inset -1px 0px 5px 0px #a29893;
+    /* border-radius: 10px; 
+    height: 95%;
+    width: 100%; */
+  
+  
+  /* @media (max-width: 768px) {
+    .cards-containers{
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+       /* Stack the cards on smaller screens 
+    } */
+  
+    /* .cards-container{
+      width: 93%;  /* Full width on mobile *
+    } */
+  
+/*   
+  .Card1 {
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+   
+  } */
+  
+  /* @keyframes heading {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  } */
+  
+
+
+    /* @keyframes imgtrans {
+        from {
+            transform: translateX(100px); /* Start 100px to the right 
+            opacity: 0; /* Start fully transparent 
+        }
+        to {
+            transform: translateX(0px); /* End at the original position 
+            opacity: 1; /* Fully visible 
+        }
+    } */
+    
+    /* Apply the animation */
+    /* .cardtrans{
+        animation-name: imgtrans;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: 2;
+    } */
+    

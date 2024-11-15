@@ -1,0 +1,151 @@
+/* .custom-nav .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px;
+} */
+
+@media (max-width: 768px) {
+    .custom-nav .nav-link {
+        font-size: 0.8rem; /* Smaller font size */
+        padding: 5px 8px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /*align-items:end;*/
+    top: 0; /* Aligns the top of the navbar to the top of the container */
+    right: 0; 
+    background-color: rgba(245, 243, 243, 0.05); /* Semi-transparent background for overlay effect */
+    padding: 1rem;
+    color: white;
+    position: absolute; /* Overlay position */
+    top: 0; /* Positioned at the top of the page */
+     /* Full-width navbar */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.navbar-links li {
+    list-style: none;
+    font-size: 29px;
+    /* font-family: sans-serif; */
+    font-weight: 400;
+    /* font-family: Sofia Sans Condensed; */
+    /* font-family: "Work Sans", Arial, sans-serif; */
+    font-family: Engagement;
+    line-height: 1.7;
+}
+.navbar-links a {
+    text-decoration: none; /* Remove underline */
+    color: #4c4243;
+}
+
+@media (max-width: 760px) {
+    .navbar-links li {
+        list-style: none;
+        font-size: 20px;
+        /* font-family: sans-serif; */
+        
+        font-weight: 200;
+    }
+    .navbar-links a {
+        text-decoration: none; /* Remove underline */
+        color: #4c4243; /* Set link color */
+    }
+}
+
+/* .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.menu span {
+    height: 0.3rem;
+    width: 100%;
+    background-color: rgba(254, 254, 254, 0.8);
+    border-radius: 0.2rem;
+} */
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+    }
+
+    .custom-nav {
+        display: none; /* Hide links on small screens if using mobile menu */
+    }
+}
+
+
+
+/* .nav{
+    /* position: fixed; */
+     /* display: flex;
+    justify-content: flex-end;
+    top: 20PX;
+    
+}  
+Default styling for larger screens
+.custom-nav .nav-link {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+}
+
+/* Adjustments for smaller screens 
+@media (max-width: 768px) {
+    .custom-nav .nav-link {
+        font-size: 0.9rem; /* Smaller font size 
+        padding: 8px 10px; /* Less padding
+    }
+}
+ .menu{
+    display: none;
+    position:absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+ }
+ .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color:rgba(254, 254, 254, 0.477);
+    /* opacity: 0.3; 
+    border-radius: 0.2rem;
+ }
+
+ @media (max-width: 480px) {
+    nav .menu{ 
+        display: flex;
+    }
+    nav{
+        flex-direction: column;
+        align-items: start;
+    }
+ }
+
+/* .nav{
+    /* background-color:rgba(248, 248, 248, 0.494); White with transparency */
+    /* backdrop-filter: blur(5px);
+     transition: background-color 0.3s; */
+     /* margin-top: 20px;
+     position: fixed;
+     display: flex;
+    justify-content: flex-end;
+   
+    justify-content: space-between;
+} */ 
