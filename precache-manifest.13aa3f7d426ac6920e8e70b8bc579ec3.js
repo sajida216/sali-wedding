@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62fb9533ab244980d3fa4aa50df7dfe4",
+    "revision": "746042b20c9b3396dba7e6618919b1b1",
     "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/index.html"
   },
   {
-    "revision": "d54efcd12c2d69abbe84",
+    "revision": "bfe90dabeb06513e26e6",
     "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/css/2.83d756e6.chunk.css"
   },
   {
-    "revision": "c76d2e30f6323609cca0",
+    "revision": "4d193c0881d3d8d5a9c6",
     "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/css/main.c4a148ef.chunk.css"
   },
   {
-    "revision": "d54efcd12c2d69abbe84",
-    "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/js/2.973501cb.chunk.js"
+    "revision": "bfe90dabeb06513e26e6",
+    "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/js/2.e3a8117b.chunk.js"
   },
   {
     "revision": "2133a33f4e9282dbf343",
     "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/js/3.c60c86f6.chunk.js"
   },
   {
-    "revision": "c76d2e30f6323609cca0",
-    "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/js/main.c933bfe0.chunk.js"
+    "revision": "4d193c0881d3d8d5a9c6",
+    "url": "%3Csajida216%3E.github.io/%3Csali-wedding%3E/static/js/main.9150c2ae.chunk.js"
   },
   {
     "revision": "6a3917d837e01e89b798",
