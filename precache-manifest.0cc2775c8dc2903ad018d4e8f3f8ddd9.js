@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ef4c4eb2869c1e053111ea624375d8f",
+    "revision": "8aa984b234d8d41b6fd56c4e7d635aff",
     "url": "/sali-wedding/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sali-wedding/static/css/2.83d756e6.chunk.css"
   },
   {
-    "revision": "094a1c63b0d18c83f3be",
-    "url": "/sali-wedding/static/css/main.c4a148ef.chunk.css"
+    "revision": "d7ba5a2f7b14bf2259de",
+    "url": "/sali-wedding/static/css/main.d4731092.chunk.css"
   },
   {
     "revision": "f8d4567c2ae5371aea51",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sali-wedding/static/js/3.69ba5426.chunk.js"
   },
   {
-    "revision": "094a1c63b0d18c83f3be",
-    "url": "/sali-wedding/static/js/main.25df2d13.chunk.js"
+    "revision": "d7ba5a2f7b14bf2259de",
+    "url": "/sali-wedding/static/js/main.593344b6.chunk.js"
   },
   {
     "revision": "70742cf8f984aee9de4f",
