@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sali-wedding/static/css/main.fc9e0123.chunk.css",
-    "main.js": "/sali-wedding/static/js/main.593344b6.chunk.js",
-    "main.js.map": "/sali-wedding/static/js/main.593344b6.chunk.js.map",
+    "main.css": "/sali-wedding/static/css/main.a67a7b28.chunk.css",
+    "main.js": "/sali-wedding/static/js/main.544144cd.chunk.js",
+    "main.js.map": "/sali-wedding/static/js/main.544144cd.chunk.js.map",
     "runtime~main.js": "/sali-wedding/static/js/runtime~main.3502c3ce.js",
     "runtime~main.js.map": "/sali-wedding/static/js/runtime~main.3502c3ce.js.map",
     "static/css/2.83d756e6.chunk.css": "/sali-wedding/static/css/2.83d756e6.chunk.css",
@@ -11,10 +11,10 @@
     "static/js/3.69ba5426.chunk.js": "/sali-wedding/static/js/3.69ba5426.chunk.js",
     "static/js/3.69ba5426.chunk.js.map": "/sali-wedding/static/js/3.69ba5426.chunk.js.map",
     "index.html": "/sali-wedding/index.html",
-    "precache-manifest.f409ddfe728db1c68d44101af63f3a51.js": "/sali-wedding/precache-manifest.f409ddfe728db1c68d44101af63f3a51.js",
+    "precache-manifest.319433bed8472e99f98ed1c37642823a.js": "/sali-wedding/precache-manifest.319433bed8472e99f98ed1c37642823a.js",
     "service-worker.js": "/sali-wedding/service-worker.js",
     "static/css/2.83d756e6.chunk.css.map": "/sali-wedding/static/css/2.83d756e6.chunk.css.map",
-    "static/css/main.fc9e0123.chunk.css.map": "/sali-wedding/static/css/main.fc9e0123.chunk.css.map",
+    "static/css/main.a67a7b28.chunk.css.map": "/sali-wedding/static/css/main.a67a7b28.chunk.css.map",
     "static/media/bg21.jpg": "/sali-wedding/static/media/bg21.40063720.jpg",
     "static/media/img1.JPG": "/sali-wedding/static/media/img1.cb54c796.JPG",
     "static/media/img2.JPG": "/sali-wedding/static/media/img2.74e3f6ac.JPG"
